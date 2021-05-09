@@ -23,10 +23,6 @@ img{
   
 
 }
-.storycon{
-  width: 80%;
-  margin-left: 50px;
-}
 .storycon ul{ 
     list-style-type: none;
     user-select: none;
@@ -71,7 +67,7 @@ img{
     
 
 }
-.storycon ul li.has-story .story{ 
+.storycon ul li.their-story .story{ 
     padding: 20px;
     width: 75px;
     height: 75px;
@@ -154,7 +150,7 @@ img{
     color: white;
     height: 17px;
     background: #242526;
-    margin-left: 44%;
+    margin-left: 46%;
     margin-top: 30px;
     
 }
@@ -243,360 +239,6 @@ img{
     margin-left: 78%;
 }
 
-
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
-.heart-btn{
-  position: absolute;
-  top: 110%;
-  left: 12.5%;
-  transform: translate(-50%,-50%);
-}
-
-.commant-btn{
-    position: absolute;
-    top: 163%;
-  left: 16%;
-    transform: translate(-50%,-50%);
-  }
-
-
-  .share-btn{
-    position: absolute;
-    top: 163%;
-    left: 19%;
-    transform: translate(-50%,-50%);
-  }
-
-  .save-btn{
-    position: absolute;
-    top: 163%;
-  left: 86%;
-    transform: translate(-50%,-50%);
-  }
-  .test-btn{
-    position: absolute;
-    top: 175%;
-  left: 17.5%;
-    transform: translate(-50%,-50%);
-    font-weight: bold;
-  }
-  .test1-btn{
-    position: absolute;
-     top: 192%;
-  left: 17.5%;
-    transform: translate(-50%,-50%);
-    font-weight: bold;
-  }
-  .test2-btn{
-    position: absolute;
-    top: 189%;
-    left: 12%;
-    transform: translate(-50%,-50%);
-    font-weight: bold;
-    
-  }
-  .heart1-btn{
-    position: absolute;
-    top: 95%;
-    left: 12.5%;
-    transform: translate(-50%,-50%);
-  }
-  
-  .commant1-btn{
-      position: absolute;
-      top: 325%;
-      left: 16%;
-      transform: translate(-50%,-50%);
-    }
-  
-  
-    .share1-btn{
-      position: absolute;
-      top: 325%;
-      left: 19%;
-      transform: translate(-50%,-50%);
-    }
-  
-    .save1-btn{
-      position: absolute;
-      top: 325%;
-      left: 86%;
-      transform: translate(-50%,-50%);
-    }
-    .testa-btn{
-      position: absolute;
-      top: 336%;
-      left: 16.8%;
-      transform: translate(-50%,-50%);
-      font-weight: bold;
-    }
-    .testa1-btn{
-      position: absolute;
-      top: 350%;
-      left: 17.5%;
-      transform: translate(-50%,-50%);
-      font-weight: bold;
-    }
-    .testa2-btn{
-      position: absolute;
-      top: 347%;
-      left: 11%;
-      transform: translate(-50%,-50%);
-      font-weight: bold;
-      height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    }
-    .far {
-      color:whitesmoke;
-    }
-
-.y1{
-  padding: 20px 20px;
-  display: flex;
-  border: 2px solid #000000;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.y2{
-    
-    display: flex;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .y3{
-    
-    display: flex;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .y4{
-   
-    display: flex;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
- .y5{
-    display: flex;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  .y6{
-    display: flex;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  .y7{
-     
-    display: flex;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    cursor: pointer;
-    border-radius: 50%;
-  }
-  .y1a{
-    padding: 20px 20px;
-    display: flex;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .y2a{
-      
-      display: flex;
-      border: 2px solid #000000;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-  
-    .y3a{
-      
-      display: flex;
-      border: 2px solid #000000;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-  
-    .y4a{
-      
-      display: flex;
-      border: 2px solid #000000;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-  
-   .y5a{
-      display: flex;
-      border: 2px solid #000000;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    .y6a{
-      display: flex;
-      border: 2px solid #000000;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    .y7a{
-      
-      display: flex;
-      border: 2px solid #000000;
-      border-radius: 5px;
-      cursor: pointer;
-      border-radius: 50%;
-    }
-.y1.heart-active{
-  border-color: #000000;
-  background: #000000;
-}
-.y1a.heart-active{
-  border-color: #000000;
-  background: #000000;
-}
-
-.yyy{
-  border-radius: 50%;
-}
-
-
-
-.heart{
-  position: absolute;
-  background: url("../pic/img.png") no-repeat;
-  background-position: left;
-  background-size: 3000%;
-  height: 90px;
-  width: 90px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-
-.commant{
-    position: absolute;
-    background-size: 36%;
-    height: 90px;
-    width: 90px;
-    top: 50%;
-    left: 110%;
-    transform: translate(-50%,-50%);
-  }
-
-  .share{
-    position: absolute;
-    background-size: 35%;
-    height: 90px;
-    width: 90px;
-    top: 50%;
-    left: 110%;
-    transform: translate(-50%,-50%);
-  }
-
-  .save{
-    position: absolute;
-    background-size: 68%;
-    height: 90px;
-    width: 90px;
-    top: 50%;
-    left: 114%;
-    transform: translate(-50%,-50%);
-  }
-  
-  .test{
-    position: absolute;
-    background-size: 75%;
-    height: 90px;
-    width: 90px;
-    top: 50%;
-    left: 80%;
-    transform: translate(-50%,-50%);
-  }
-
-  .heart1{
-    position: absolute;
-    background: url("../pic/img.png") no-repeat;
-    background-position: left;
-    background-size: 3000%;
-    height: 90px;
-    width: 90px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  }
-  
-  .commant1{
-      position: absolute;
-      background-size: 36%;
-      height: 90px;
-      width: 90px;
-      top: 50%;
-      left: 110%;
-      transform: translate(-50%,-50%);
-    }
-  
-    .share1{
-      position: absolute;
-      background-size: 35%;
-      height: 90px;
-      width: 90px;
-      top: 50%;
-      left: 110%;
-      transform: translate(-50%,-50%);
-    }
-  
-    .save1{
-      position: absolute;
-      background-size: 68%;
-      height: 90px;
-      width: 90px;
-      top: 50%;
-      left: 114%;
-      transform: translate(-50%,-50%);
-    }
-    
-    .test1{
-      position: absolute;
-      
-      background-position: left;
-      background-size: 75%;
-      height: 90px;
-      width: 90px;
-      top: 50%;
-      left: 80%;
-      transform: translate(-50%,-50%);
-    }
-
-.heart.heart-active{
-    animation: animate .8s steps(28) 1;
-    background-position: right;
-  }
-
-  .heart1.heart-active{
-    animation: animate .8s steps(28) 1;
-    background-position: right;
-  }
-
-@keyframes animate {
-    0%{
-      background-position: left;
-    }
-    100%{
-      background-position: right;
-    }
-  }
 
 
 
@@ -695,6 +337,72 @@ img{
     font-size: 30px;
     color: whitesmoke;
 }
-.ya{
-  margin-bottom: 50%;
+
+
+
+.h{
+  width: 80%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  background: #000;
+  margin-left: 10%;
+  
+ 
 }
+.comment{
+
+  font-size: 20px;
+
+  color: whiteSMOKE;
+  width: 50px;
+  height: 25px;
+  margin-left: 28px;
+  margin-top: 25px;
+ float:left;
+  background: #000;  
+  
+}
+
+.like{
+  padding: 30px 0;
+  float: left;
+  color: white;
+  height: 17px;
+  background: #000;
+  margin-left: 17px;
+  
+
+
+}
+.save{
+  
+  float: right;
+  color: white;
+  height: 17px;
+  background: #000;
+  margin-left: 85%;
+  margin-top: 30px;
+  
+}
+.se{
+    
+  float: left;
+  color: white;
+  height: 17px;
+  background: #242526;
+  margin-left:8px;
+  margin-top: 30px;
+  
+}
+.fa-color{
+  color:whitesmoke;
+}
+.tex h3{
+ color: whitesmoke;
+ margin-left: 200px;
+}
+.tex p{
+  color: whitesmoke;
+  margin-left: 200px;
+ }

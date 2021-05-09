@@ -175,7 +175,7 @@ img{
     margin-left: 550px;
 }
 #u{
-    margin-left: 130px;
+    margin-left: 100px;
 }
 
 .pr ul li {
@@ -270,10 +270,7 @@ input[type="text"]{
 
 
 
-.hy{
-    width: 80%;
-    margin-left: 50px;
-  }
+
 .hy ul{ 
     list-style-type: none;
     user-select: none;
@@ -336,10 +333,10 @@ input[type="text"]{
 
     
 }
-.nav1 {
+nav {
     position: fixed;
     bottom: 0;
-    width: 80%;
+    width: 81%;
     height: 55px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     background-color: #242526;
